@@ -224,22 +224,12 @@ persist.vendor.vcb.enable=false
 
 # WLAN
 wifi.aware.interface=wifi-aware0
-<<<<<<< HEAD
-=======
 
 # Netflix
 vendor.netflix.bsp_rev=Q6450-36256-1
 
-# Resampler
-af.resampler.quality=7
-ro.audio.resampler.psd.stopband=132
-ro.audio.resampler.psd.halflength=960
-ro.audio.resampler.psd.cutoff_percent=98
-ro.audio.resampler.psd.tbwcheat=0
-ro.audio.usb.period_us=20375
-
 # HWUI
-ro.hwui.render_ahead=30
+ro.hwui.render_ahead=2
 ro.hwui.drop_shadow_cache_size=6
 ro.hwui.gradient_cache_size=1
 ro.hwui.layer_cache_size=48
@@ -253,14 +243,6 @@ ro.hwui.texture_cache_flushrate=0.4
 ro.hwui.texture_cache_size=72
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
-debug.hwui.renderer=skiavk
-debug.hwui.show_overdraw=false
-debug.hwui.use_triple_buffering=true
-debug.renderengine.vulkan=true
-debug.renderengine.graphite=true
-debug.renderengine.backend=skiavkthreaded
-debug.stagefright.renderengine.backend=threaded
-renderthread.skia.reduceopstasksplitting=true
 
 # Dex2oat
 dalvik.vm.dex2oat64.enabled=true
@@ -271,4 +253,3 @@ dalvik.vm.image-dex2oat-threads=4
 
 # Performance
 debug.performance.tuning=1
->>>>>>> a254a12 (garnet: Enable debug.performance.tuning)
