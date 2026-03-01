@@ -1354,6 +1354,9 @@ vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 
 # Graphics (Adreno)
+vendor/etc/permissions/android.hardware.vulkan.version-1_3.xml
+vendor/etc/permissions/android.software.opengles.deqp.level.xml
+vendor/etc/permissions/android.software.vulkan.deqp.level.xml
 vendor/gpu/kbc/sequence_manifest.bin
 vendor/gpu/kbc/unified_kbcs_32.bin
 vendor/gpu/kbc/unified_kbcs_64.bin
@@ -1394,6 +1397,11 @@ vendor/lib64/libkernelmanager.so
 vendor/lib64/libllvm-glnext.so
 vendor/lib64/libllvm-qcom.so
 vendor/lib64/libllvm-qgl.so
+vendor/lib64/vlkadreno_app_profiles.so
+vendor/lib64/vlkadreno_utils.so
+vendor/lib64/vlkgsl.so
+vendor/lib64/vlkllvm-glnext.so
+vendor/lib64/vlkllvm-qgl.so
 
 # Graphics (Adreno firmware)
 vendor/firmware/a710_sqe.fw
